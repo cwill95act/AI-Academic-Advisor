@@ -1,0 +1,54 @@
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+}
+
+/* Header styles */
+.layout-header {
+    background-color: #e05f17; /* UIUC Orange */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.layout-header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.layout-nav {
+    margin-top: 10px;
+}
+
+.layout-nav a {
+    margin: 0 10px;
+    color: #2c3a75; /* UIUC Blue */
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.layout-nav a:hover {
+    color: white;
+}
+
+/* Main content area */
+.layout-main {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer styles */
+.layout-footer {
+    background-color: #e05f17; /* UIUC Orange */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+}
